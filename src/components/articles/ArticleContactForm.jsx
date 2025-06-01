@@ -10,8 +10,7 @@ import {useEmails} from "/src/helpers/emails.js"
 import StatusMessage from "/src/components/generic/StatusMessage.jsx"
 import {useTheme} from "/src/providers/ThemeProvider.jsx"
 import {useFeedbacks} from "/src/providers/FeedbacksProvider.jsx"
-import { db } from '/src/firebase.js';
-import { collection, addDoc, Timestamp } from 'firebase/firestore';
+
 
 function ArticleContactForm({ data }) {
     const parser = useParser()
